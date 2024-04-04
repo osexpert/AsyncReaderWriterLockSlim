@@ -5,6 +5,7 @@ This is an alternative to .NET's
 with a similar functionality, but can be used in async methods. Due to its async-readiness, it
 does **not support recursive locks** (see section [Differences](#differences-to-readerwriterlockslim)).
 
+Another alternative: https://dotnet.github.io/dotNext/api/DotNext.Threading.AsyncReaderWriterLock.html from https://github.com/dotnet/dotNext
 
 ## Lock Modes
 
