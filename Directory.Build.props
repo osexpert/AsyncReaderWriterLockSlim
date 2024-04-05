@@ -3,30 +3,27 @@
 
     <PackageReadmeFile>README.md</PackageReadmeFile>
     
-
- 	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
     <RepoRootPath>$(MSBuildThisFileDirectory)</RepoRootPath>
     <PackageOutputPath>$(RepoRootPath)bin\Packages\$(Configuration)\NuGet\</PackageOutputPath>
 
     <RepositoryType>git</RepositoryType>
-    <PackageReleaseNotes></PackageReleaseNotes>
-
-	  <PackageProjectUrl>https://github.com/osexpert/AsyncReaderWriterLockSlim</PackageProjectUrl>
-	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-	  <RepositoryUrl>https://github.com/osexpert/AsyncReaderWriterLockSlim.git</RepositoryUrl>
-	      
-
-    
-		        
+    <RepositoryUrl>https://github.com/osexpert/AsyncReaderWriterLockSlim.git</RepositoryUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
 
-    
+    <PackageReleaseNotes></PackageReleaseNotes>
+
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+
+    <PackageProjectUrl>https://github.com/osexpert/AsyncReaderWriterLockSlim</PackageProjectUrl>
+
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="$(RepoRootPath)README.md" Pack="true" PackagePath="\"/>
-    <None Include="$(RepoRootPath)LICENSE.txt" Pack="true" PackagePath="\"/>
+    <None Include="$(RepoRootPath)LICENSE" Pack="true" PackagePath="\"/>
   </ItemGroup>
     
 </Project>
